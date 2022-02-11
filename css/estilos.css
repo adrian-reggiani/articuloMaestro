@@ -1,0 +1,16 @@
+body {
+  font-size: 16px;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.contenedor {
+  border: 1px solid black;
+  margin: 0 15rem;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+/*# sourceMappingURL=estilos.css.map */
