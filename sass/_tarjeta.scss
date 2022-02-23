@@ -1,14 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-size: 16px;
     height: 90vh;
     display: flex;
     align-items: center;
+    font-family: 'Manrope', sans-serif;
+    background-color: $azulGrisaseoliviano;
 }
 
 .contenedor{
     border: 1px solid black;
-    margin: 0 15rem;
+    height: 18rem;
+    margin: 0rem 20rem;
     border-radius: 1rem;
     display: grid;
     grid-template-columns: 30% 70%;
+    background-color: white;
+    
 }

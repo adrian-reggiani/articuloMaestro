@@ -1,0 +1,36 @@
+.contenedor__informacion{
+    margin: 1rem 3rem;
+    
+    h1{
+        color: $azulGrisaseoMuyOscuro;
+        font-size: 1.4rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+    p{
+        color: $azulGrisaseo;
+        font-size: 0.9rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+
+}
+
+.contenedor_informacion_contacto{
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    height: 25%;
+    background-color: $azulGrisaseoliviano;
+
+    ul{
+        list-style: none;
+    }
+
+    img{
+        width: 3rem;
+        border-radius: 50%;
+    }
+    
+}
